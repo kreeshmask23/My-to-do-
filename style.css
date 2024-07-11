@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 5, 7);
+}
+
+.todo-container {
+    background-color: rgb(77, 219, 37);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.todo-container h2 {
+    margin-top: 0;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-list input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: black;
+}
+p{
+    color: whitesmoke;
+}
+h1{
+    color: whitesmoke;
+}
+.container{
+    background-color: rgb(121, 106, 228);
+}
+.clear-completed{
+    background-color: rgb(7, 38, 238);
+}
+.empty-list{
+    background-color:rgba(222, 23, 23, 0.685);
+}
+.save-list{
+    background-color:rgb(77, 219, 37);
+} 
+.clear-completed:hover{
+    background-color:yellow;
+}
+.empty-list:hover{
+    background-color:yellow;
+}
+.save-list:hover{
+    background-color:yellow;
+}
+#add-button{
+    background-color: rgb(7, 38, 238);
+}
